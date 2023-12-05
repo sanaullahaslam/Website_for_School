@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your School Name</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    /* Add your custom styles here */
+
+    /* Example: */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Hero Section */
+    .hero-section {
+      background-color: #ECF0F1;
+      padding: 50px 0; /* Adjust the padding as needed */
+      text-align: center;
+    }
+
+    .hero-heading {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .hero-note {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .qualities {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .qualities-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .qualities-list li {
+      margin-bottom: 5px;
+    }
+
+    .hero-paragraph {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+    /* Founder Message Section */
+    .founder-section {
+      text-align: center;
+      padding: 50px 0; /* Adjust the padding as needed */
+    }
+
+    .founder-heading {
+      font-size: 2.5rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .founder-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+
+    .founder-message {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      text-align: left;
+    }
+
+    .founder-signature {
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    /* Staff Section */
+    .staff-section {
+      padding: 50px 0; /* Adjust the padding as needed */
+      background-color: #fff; /* Background color for staff section */
+    }
+
+    .staff-carousel {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .staff-box {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ddd; /* Border color for staff box */
+      border-radius: 8px;
+      margin-right: 15px;
+    }
+
+    .staff-box img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+
+    .staff-name {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .staff-subject {
+      font-size: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <!-- Logo and School Name -->
+      <a class="navbar-brand" href="#">
+        <img src="assets/yasir-removebg-preview.png" alt="School Logo" width="40" height="40" class="mr-2">
+        YPS
+      </a>
+
+      <!-- Navbar Toggler for mobile -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#staff-section">Our Staff</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fee Structure</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero-section">
+    <div class="container">
+      <div class="row">
+        <!-- Left Side - Headings and Note -->
+        <div class="col-md-6">
+          <h1 class="hero-heading">Welcome to Yasir Public High School</h1>
+          <p class="hero-note">Quality, Punctuality, Discipline & Justice</p>
+          <ul class="qualities-list">
+            <li>Quality Education</li>
+            <li>Punctual Environment</li>
+            <li>Disciplined Atmosphere</li>
+            <li>Focus on Justice</li>
+          </ul>
+        </div>
+        <!-- Right Side - Image -->
+        <div class="col-md-6">
+          <img src="assets/herosectionpic.jpg" alt="School Image" class="img-fluid" style="border-radius: 8px;">
+          <!-- Adjust the image path and styling as needed -->
+        </div>
+      </div>
+      <!-- Hero Paragraph -->
+      <p class="hero-paragraph">
+        Welcome to Yasir Public High School, where curiosity meets excellence! Our dedicated team is committed to
+        fostering a love for learning and providing a nurturing environment. With diverse academic programs and a focus
+        on character development, we empower students for success in an ever-evolving world. Join us in inspiring a
+        future of endless possibilities!
+      </p>
+    </div>
+  </div>
+
+  <!-- Founder Message Section -->
+  <div class="founder-section">
+    <div class="container">
+      <h2 class="founder-heading">Founder Message</h2>
+      <div class="row">
+        <!-- Left Side - Image -->
+        <div class="col-md-6">
+          <img src="assets/sir.jpg" alt="Founder Image" class="founder-image">
+          <!-- Adjust the image path and styling as needed -->
+        </div>
+        <!-- Right Side - Message -->
+        <div class="col-md-6">
+          <p class="founder-message">
+            Dear Students,<br><br>
+            Welcome to a place where education is more than facts—it's a journey of self-discovery. Our aim is to ignite
+            curiosity, foster creativity, and instill a passion for lifelong learning. Remember, education is your key to
+            unlocking potential and creating a brighter future. Strive for excellence, embrace challenges, and carry
+            knowledge with humility. You are not just students; you are architects of your destiny. Together, let's build a
+            legacy of knowledge, empathy, and positive change.
+          </p>
+          <p class="founder-signature">
+            Sincerely,<br>
+            Ghulam Nabi Mallah<br>
+            Founder: Yasir Public School
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Staff Section -->
+  <div class="staff-section">
+    <div class="container">
+      <h2 class="mb-4">Our Staff</h2>
+      <div id="staffCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Generate Staff Member Boxes Dynamically -->
+          <!-- Note: The number of staff members can be adjusted as needed -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <!-- Staff Member 1 -->
+                <div class="staff-box">
+                  <img src="assets/yasir.jpg" alt="Instructor 1" class="img-fluid">
+                  <div class="staff-name">John Doe</div>
+                  <div class="staff-subject">Mathematics</div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <!-- Staff Member 2 -->
+                <div class="staff-box">
+                  <img src="assets/yasir-removebg-preview.png" alt="Instructor 2" class="img-fluid">
+                  <div class="staff-name">Jane Smith</div>
+                  <div class="staff-subject">Science</div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <!-- Staff Member 3 -->
+                <div class="staff-box">
+                  <img src="assets/herosectionpic.jpg" alt="Instructor 3" class="img-fluid">
+                  <div class="staff-name">Bob Johnson</div>
+                  <div class="staff-subject">English</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <!-- Staff Member 4 -->
+                <div class="staff-box">
+                  <img src="assets/sir.jpg" alt="Instructor 4" class="img-fluid">
+                  <div class="staff-name">Eva Brown</div>
+                  <div class="staff-subject">History</div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <!-- Staff Member 5 -->
+                <div class="staff-box">
+                  <img src="assets/yasir.jpg" alt="Instructor 5" class="img-fluid">
+                  <div class="staff-name">Michael Davis</div>
+                  <div class="staff-subject">Physics</div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <!-- Staff Member 6 -->
+                <div class="staff-box">
+                  <img src="path-to-instructor6-image.jpg" alt="Instructor 6" class="img-fluid">
+                  <div class="staff-name">Emily White</div>
+                  <div class="staff-subject">Chemistry</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Add more carousel items as needed -->
+        </div>
+        <!-- Carousel Controls -->
+        <a class="carousel-control-prev" href="#staffCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#staffCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Your content goes here -->
+
+  <!-- Bootstrap JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!-- Activate the Carousel -->
+  <script>
+    $(document).ready(function () {
+      $('#staffCarousel').carousel();
+    });
+  </script>
+</body>
+
+</html>
